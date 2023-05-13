@@ -6,7 +6,7 @@ const app = express()
 
 const connectDB = async () => {
             try {
-                        mongoose.connect('mongodb+srv://AXG-coder:AXG-coder@cluster0.zcvtxgu.mongodb.net/?retryWrites=true&w=majority', {
+                        mongoose.connect(process.env.MONG_URI, {
                                     useNewUrlParser: true, useUnifiedTopology: true
                         }, console.log('MongoDB Connected...'))
             } catch (error) {
