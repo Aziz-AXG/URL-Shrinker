@@ -10,6 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "ejs": "^3.0.1",
+    "dotenv": "^16.0.3",
     "express": "^4.17.1",
     "mongoose": "^5.9.1",
     "shortid": "^2.2.15"
