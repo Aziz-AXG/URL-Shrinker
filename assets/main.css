@@ -155,6 +155,10 @@ a {
   .UrlsTable tr {
     margin-bottom: 15px;
   }
+
+  .ulrForm {
+    width: 100%;
+  }
 }
 
 .custom-shape-divider-bottom-1663326977 {
